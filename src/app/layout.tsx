@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     template: "%s | Afolabi Moses",
-    default: "Tuition By Flutterwave",
+    default: "Afolabi Moses",
   },
   description:
     "A product manager passionate about turning ideas into successful products.",
