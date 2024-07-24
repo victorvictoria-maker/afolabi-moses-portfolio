@@ -66,7 +66,7 @@ const Aboutpage = () => {
           </button>
         </div>
       </section>
-      <div className='max-w-7xl mx-auto px-4 py-8'>
+      <section className='mx-auto py-8 px-6 lg:px-20'>
         <hr className='mb-0.5' />
         <hr className='mb-10' />
         <div className='grid  md:grid-cols-12 gap-8 md:gap-4'>
@@ -246,7 +246,7 @@ const Aboutpage = () => {
         </div>
         <hr className='mt-10' />
         <hr className='mt-0.5 mb-20 md:mb-60' />
-      </div>
+      </section>
     </main>
   );
 };
