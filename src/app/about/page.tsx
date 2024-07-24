@@ -12,13 +12,24 @@ const Aboutpage = () => {
           <h2 className='text-4xl text-center md:text-left md:text-3xl lg:text-4xl font-bold mb-4'>
             Some interesting facts about me -
           </h2>
-          <Image
-            src='/images/logoOnLaptop.svg'
-            alt='Logo on laptop'
-            width={468}
-            height={520}
-            className='rounded-2xl'
-          />
+          <div className='md:hidden'>
+            <Image
+              src='/images/logoOnLaptop.svg'
+              alt='Logo on laptop'
+              width={368}
+              height={400}
+              className='rounded-2xl'
+            />
+          </div>
+          <div className='hidden md:block'>
+            <Image
+              src='/images/logoOnLaptop.svg'
+              alt='Logo on laptop'
+              width={468}
+              height={520}
+              className='rounded-2xl'
+            />
+          </div>
         </div>
 
         <div className='md:w-2/3 md:pl-12 lg:pl-28 md:text-sm lg:text-base text-[#3C2B2B] md:pt-2 lg:pt-24'>
@@ -50,7 +61,7 @@ const Aboutpage = () => {
             </p>
           </div>
 
-          <button className='bg-[#1E1414] text-white font-medium px-8 py-3 rounded-lg  mt-8 md:mt-4 lg:mt-16'>
+          <button className='bg-[#1E1414] text-white font-medium px-8 py-3 rounded-lg  mt-8 md:mt-4 lg:mt-8'>
             View My Resume
           </button>
         </div>
@@ -82,7 +93,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/productStrategyIcon.svg'
-                  alt='Research Icon'
+                  alt='Product Strategy Icon'
                   width={16}
                   height={16}
                 />
@@ -93,7 +104,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/roadMappingIcon.svg'
-                  alt='Research Icon'
+                  alt='RoadMapping Icon'
                   width={16}
                   height={16}
                 />
@@ -104,7 +115,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/dataAnalysisIcon.svg'
-                  alt='Research Icon'
+                  alt='Data Analysis Icon'
                   width={16}
                   height={16}
                 />
@@ -121,7 +132,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/communicationIcon.svg'
-                  alt='Research Icon'
+                  alt=' Communication Icon'
                   width={16}
                   height={14}
                 />
@@ -132,7 +143,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/teamWorkIcon.svg'
-                  alt='Research Icon'
+                  alt='Team Work Icon'
                   width={16}
                   height={16}
                 />
@@ -143,7 +154,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/problemSolvingIcon.svg'
-                  alt='Research Icon'
+                  alt='Problem Solving Icon'
                   width={16}
                   height={16}
                 />
@@ -154,7 +165,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/conflictResolutionIcon.svg'
-                  alt='Research Icon'
+                  alt='Conflict Resolution Icon'
                   width={16}
                   height={16}
                 />
@@ -165,7 +176,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/crossFunctionalIcon.svg'
-                  alt='Research Icon'
+                  alt='Cross Functional Collaboration Icon'
                   width={16}
                   height={16}
                 />
@@ -182,7 +193,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/figmaIcon.svg'
-                  alt='Research Icon'
+                  alt='Figma Icon'
                   width={16}
                   height={14}
                 />
@@ -191,7 +202,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/jiraIcon.svg'
-                  alt='Research Icon'
+                  alt='Jira Icon'
                   width={16}
                   height={16}
                 />
@@ -200,7 +211,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/linearIcon.svg'
-                  alt='Research Icon'
+                  alt='Linear Icon'
                   width={16}
                   height={16}
                 />
@@ -209,7 +220,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/whimsicalIcon.svg'
-                  alt='Research Icon'
+                  alt='Whimsical Icon'
                   width={16}
                   height={16}
                 />
@@ -220,7 +231,7 @@ const Aboutpage = () => {
               <li className='flex space-x-2'>
                 <Image
                   src='/images/googleSheetIcon.svg'
-                  alt='Research Icon'
+                  alt='Google Sheets Icon'
                   width={16}
                   height={16}
                 />

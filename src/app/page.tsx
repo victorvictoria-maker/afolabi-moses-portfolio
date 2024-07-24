@@ -110,6 +110,7 @@ export default function Home() {
             className='absolute bottom-0 right-0 '
             width={40}
             height={22}
+            // style={{ width: "fit", height: "fit" }}
           />
         </div>
         <div className='hidden md:block lg:hidden'>
@@ -119,6 +120,7 @@ export default function Home() {
             className='absolute bottom-0 right-0 '
             width={100}
             height={72}
+            // style={{ width: "fit", height: "fit" }}
           />
         </div>
         <div className='hidden lg:block'>
@@ -128,6 +130,7 @@ export default function Home() {
             className='absolute bottom-0 right-0 '
             width={200}
             height={114}
+            // style={{ width: "fit", height: "fit" }}
           />
         </div>
       </section>
