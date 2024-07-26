@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      {/* <Herosection /> */}
+      <Herosection />
       <section className='bg-white py-12'>
         <div className=' mx-auto px-4 sm:px-6 lg:px-20'>
           <div className='flex justify-between items-center mb-4  md:mb-8'>

@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-white'>
+    <nav className='bg-inherit'>
       <div className=' mx-auto px-2 sm:px-6 lg:px-20'>
         <div className='flex justify-between h-16'>
           <div className='flex-shrink-0 flex items-center'>
