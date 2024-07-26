@@ -34,9 +34,9 @@ const Herosection = () => {
           <span className='text-white bg-[#1E1414]'>Products</span> that Matter.
         </h1>
         <p className='text-[#333333] text-lg mb-8'>
-          I&apos;m <span>Moses</span> - a product manager passionate about
-          turning ideas into successful products. Data-driven. User-focused.
-          Results-oriented.
+          I&apos;m <span className='font-bold'>Moses</span> - a product manager
+          passionate about turning ideas into successful products. Data-driven.
+          User-focused. Results-oriented.
         </p>
         <div className=' flex justify-between md:justify-center md:space-x-10 px-2'>
           <button className='bg-[#1E1414] text-white py-3 px-8 rounded-lg'>

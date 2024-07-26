@@ -9,7 +9,7 @@ const Aboutpage = () => {
     <main>
       <section className='flex flex-col md:flex-row   md:mt-8 mx-auto py-8 px-6 lg:px-20'>
         <div className='flex flex-col items-center  md:items-start md:w-1/3 mb-8 md:mb-0'>
-          <h2 className='text-4xl text-center md:text-left md:text-3xl lg:text-4xl font-bold mb-4'>
+          <h2 className='text-4xl text-left md:text-3xl lg:text-4xl font-bold mb-8 md:mb-4 text-[#1E1414]'>
             Some interesting facts about me -
           </h2>
           <div className='md:hidden'>
@@ -33,7 +33,7 @@ const Aboutpage = () => {
         </div>
 
         <div className='md:w-2/3 md:pl-12 lg:pl-28 md:text-sm lg:text-base text-[#3C2B2B] md:pt-2 lg:pt-24'>
-          <div className='space-y-2 md:space-y-4 lg:space-y-8'>
+          <div className='space-y-6 md:space-y-4 lg:space-y-8'>
             <p>
               Ability to put themselves in the merchant&apos;s shoes. It is
               meant to partner on the long run, and work as an extension of the
@@ -61,7 +61,7 @@ const Aboutpage = () => {
             </p>
           </div>
 
-          <button className='bg-[#1E1414] text-white font-medium px-8 py-3 rounded-lg  mt-8 md:mt-4 lg:mt-8'>
+          <button className='bg-[#1E1414] w-full md:w-auto text-white font-medium px-8 py-3 rounded-lg  mt-8 md:mt-4 lg:mt-8'>
             View My Resume
           </button>
         </div>
