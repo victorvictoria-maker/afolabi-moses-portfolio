@@ -35,13 +35,13 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href='/resume'
+              href='https://drive.google.com/file/d/1wqpHmtS9LHUwgqirmDkuCqsVZbKk7XxY/view?usp=sharing'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               Resume
             </Link>
             <Link
-              href='/blog'
+              href='https://www.linkedin.com/in/moses-afolabi-productmanager/recent-activity/articles/'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               Blog
