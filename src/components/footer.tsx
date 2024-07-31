@@ -19,19 +19,19 @@ const Footer = () => {
           </div>
           <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:space-x-4'>
             <Link
-              href='/'
+              href='https://x.com/brotherDeolu'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               Twitter
             </Link>
             <Link
-              href='/'
+              href='mailto:hello@mosesafolabi.com'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               Mail
             </Link>
             <Link
-              href='/'
+              href='https://www.linkedin.com/in/moses-afolabi-productmanager/'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               LinkedIn

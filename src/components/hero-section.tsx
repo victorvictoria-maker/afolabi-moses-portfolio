@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Herosection = () => {
   return (
@@ -38,13 +39,17 @@ const Herosection = () => {
           passionate about turning ideas into successful products. Data-driven.
           User-focused. Results-oriented.
         </p>
-        <div className=' flex justify-between md:justify-center md:space-x-10 px-2'>
-          <button className='bg-[#1E1414] text-white py-3 px-8 rounded-lg'>
-            Contact me
-          </button>
-          <button className='bg-[#CFC9C9] text-[#1E1414]  py-3 px-8 rounded-lg '>
-            View my work
-          </button>
+        <div className='flex justify-between md:justify-center md:space-x-10 px-2'>
+          <Link href='/contact-me'>
+            <button className='bg-[#1E1414] text-white py-3 px-8 rounded-lg'>
+              Contact me
+            </button>
+          </Link>
+          <Link href='/projects/project-name-1'>
+            <button className='bg-[#CFC9C9] text-[#1E1414]  py-3 px-8 rounded-lg '>
+              View my work
+            </button>
+          </Link>
         </div>
       </div>
 
