@@ -1,6 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useTransition } from "react";
+import { toast } from "react-toastify";
+import { contactMe } from "../../contactme";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +10,7 @@ const ContactForm = () => {
     email: "",
     message: "",
   });
+  const [isPending, startTransition] = useTransition();
 
   const handleChange = (e: { target: { name: any; value: any } }) => {
     const { name, value } = e.target;
@@ -19,12 +22,31 @@ const ContactForm = () => {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    // Handle form submission logic
-    console.log("Form data:", formData);
+
+    startTransition(async () => {
+      try {
+        const result = await contactMe(formData);
+        if (result.success) {
+          toast.success(result.success);
+          setFormData({
+            fullName: "",
+            email: "",
+            message: "",
+          });
+        } else {
+          toast.error(result.error);
+        }
+      } catch (error) {
+        toast.error(
+          "Something went wrong while contacting me, please try again."
+        );
+      }
+    });
   };
 
   return (
     <form onSubmit={handleSubmit} className='mt-4 lg:mt-6 md:w-[80%]  md:mb-48'>
+      {isPending && <p>Submitting...</p>}
       <div className='mb-4'>
         <label
           className='block text-[#808080] text-sm  mb-1'
