@@ -20,9 +20,11 @@ export default function Home() {
               </button>
             </Link>
 
-            <button className='text-white border border-white py-2 px-4 rounded-lg mb-4 md:mb-0'>
-              Subscribe to newsletter
-            </button>
+            <Link href='https://forms.gle/trbmvfhgodrpg2x37'>
+              <button className='text-white border border-white py-2 px-4 rounded-lg mb-4 md:mb-0'>
+                Subscribe to newsletter
+              </button>
+            </Link>
           </div>
         </div>
 

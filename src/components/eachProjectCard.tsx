@@ -15,7 +15,7 @@ const EachProjectCard: React.FC<EachProjectCardProps> = ({ eachProject }) => {
       />
       <div className='p-4 md:p-6'>
         <h3 className='text-2xl font-semibold text-[#1E1414]'>{name}</h3>
-        <p className='mt-1 text-sm md:text-base text-[#333333]'>
+        <p className='mt-1 text-sm md:text-base text-[#333333] h-fit md:h-24 lg:h-12 '>
           {briefDescription}
         </p>
         <Link href={`/projects/${slug}`}>

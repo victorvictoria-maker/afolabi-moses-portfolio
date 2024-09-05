@@ -12,30 +12,33 @@ export interface EachProjectCardProps {
 export const projects: projectType[] = [
   {
     id: 1,
-    src: "/images/pastwork1.svg",
-    name: "Project Name 1",
-    slug: "project-name-1",
-    briefDescription: "Brief description of the project",
+    src: "/images/bunce.png",
+    name: "Bunce",
+    slug: "bunce",
+    briefDescription:
+      "A customer engagement platform for modern software companies.",
   },
   {
     id: 2,
-    src: "/images/pastwork2.svg",
-    name: "Project Name 2",
-    slug: "project-name-2",
-    briefDescription: "Brief description of the project",
+    src: "/images/tasaafrica.png",
+    name: "Tasa Africa",
+    slug: "tasa-africa",
+    briefDescription:
+      "A groundbreaking platform designed to revolutionize the way sports talent is discovered, nurtured, and developed in Africa.",
   },
   {
     id: 3,
-    src: "/images/pastwork3.svg",
-    name: "Project Name 3",
-    slug: "project-name-3",
-    briefDescription: "Brief description of the project",
+    src: "/images/arca.png",
+    name: "Arca",
+    slug: "arca",
+    briefDescription:
+      "Fintech solution that specializing in providing INNOVATIVE PAYMENT SOLUTIONS for businesses.",
   },
   {
     id: 4,
-    src: "/images/pastwork4.svg",
-    name: "Project Name 4",
-    slug: "project-name-4",
-    briefDescription: "Brief description of the project",
+    src: "/images/arnergy.png",
+    name: "Arnergy",
+    slug: "arnergy",
+    briefDescription: "An innovative energy solutions for small businesses.",
   },
 ];
