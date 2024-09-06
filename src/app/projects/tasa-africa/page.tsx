@@ -35,7 +35,7 @@ const TasaAfrica = () => {
           <Image
             src='/images/tasaLogo.png'
             alt='Tasa Logo'
-            width={1200}
+            width={1700}
             height={275}
             className='hidden md:block'
           />
@@ -98,26 +98,28 @@ const TasaAfrica = () => {
               initiatives, including user interviews, calls, and usability
               testing sessions to gather and act on feedback.
             </li>
-            <li>
-              Marketing Initiatives: Lead marketing campaigns, to drive an
-              increase in user acquisition and engagement across key
-              demographics.
-            </li>
+
             <li>
               UX Research & Design Collaboration: Conduct comprehensive UX
               research and collaborate closely with designers to enhance user
               experience and interface design, significantly improving user
               satisfaction.
             </li>
-            <li>
-              Stakeholder Management: Manage key stakeholders, including users
-              and management, ensuring alignment of product vision and
-              objectives.
-            </li>
+
             <li>
               Quality Assurance: Maintain thorough and rigorous testing
               protocols, to achieve a 98% defect-free rate per sprint, ensuring
               optimal product performance.
+            </li>
+            <li>
+              Marketing Initiatives: Lead marketing campaigns, to drive an
+              increase in user acquisition and engagement across key
+              demographics.
+            </li>
+            <li>
+              Stakeholder Management: Manage key stakeholders, including users
+              and management, ensuring alignment of product vision and
+              objectives.
             </li>
             <li>
               Third-Party Integrations: Lead third-party integrations in the

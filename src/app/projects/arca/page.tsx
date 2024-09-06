@@ -35,7 +35,7 @@ const Arca = () => {
           <Image
             src='/images/arcaLogo.png'
             alt='Arca Logo'
-            width={1200}
+            width={1700}
             height={275}
             className='hidden md:block'
           />

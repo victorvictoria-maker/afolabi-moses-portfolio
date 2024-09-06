@@ -35,7 +35,7 @@ const Bunce = () => {
           <Image
             src='/images/bunceLogo.png'
             alt='Bunce Logo'
-            width={1200}
+            width={1700}
             height={275}
             className='hidden md:block'
           />
