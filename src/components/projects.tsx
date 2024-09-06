@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
       <div className=' mx-auto px-4 sm:px-6 lg:px-20'>
         <div className='flex justify-between items-center mb-4  md:mb-8'>
           <h2 className='text-xl md:text-3xl font-extrabold text-[#1E1414]'>
-            Past Works
+            Projects
           </h2>
           {/* <Link href='/' className='underline'>
           See all

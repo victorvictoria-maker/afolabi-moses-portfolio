@@ -45,7 +45,7 @@ const Herosection = () => {
             </button>
           </Link>
 
-          <Link href='/projects/project-name-1'>
+          <Link href='/projects/bunce'>
             <button className='bg-[#CFC9C9] text-[#1E1414] py-3 px-8 rounded-lg'>
               View my work
             </button>

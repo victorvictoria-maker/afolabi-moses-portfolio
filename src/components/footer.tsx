@@ -20,6 +20,7 @@ const Footer = () => {
           <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:space-x-4'>
             <Link
               href='https://x.com/brotherDeolu'
+              target='blank'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               Twitter
@@ -32,6 +33,7 @@ const Footer = () => {
             </Link>
             <Link
               href='https://www.linkedin.com/in/moses-afolabi-productmanager/'
+              target='blank'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               LinkedIn

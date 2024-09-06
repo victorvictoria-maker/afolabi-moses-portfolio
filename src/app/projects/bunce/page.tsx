@@ -28,7 +28,7 @@ const Bunce = () => {
           <Image
             src='/images/bunceLogoSm.png'
             alt='Bunce Logo'
-            width={335}
+            width={700}
             height={200}
             className='block md:hidden'
           />
@@ -44,10 +44,11 @@ const Bunce = () => {
         <h1 className='text-2xl font-semibold text-[#1E1414] mt-2 md:mt-4'>
           Bunce
         </h1>
-        <div className='md:mt-3 lg:mt-6 space-y-6'>
+        <div className='md:mt-3 lg:mt-6 space-y-6 text-justify'>
           <p>
             <Link
               href='https://bunce.so/'
+              target='blank'
               title='Open bunce.so'
               className='underline'
             >

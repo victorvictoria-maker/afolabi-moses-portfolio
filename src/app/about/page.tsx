@@ -33,62 +33,33 @@ const Aboutpage = () => {
           </div>
         </div>
 
-        <div className='md:w-1/2  md:text-sm lg:text-base text-[#3C2B2B] md:pt-24 md:pl-4 lg:pl-0 '>
-          <div className='space-y-6 md:space-y-4 lg:space-y-8'>
-            {/* <p>
-              Ability to put themselves in the merchant&apos;s shoes. It is
-              meant to partner on the long run, and work as an extension of the
-              merchant&apos;s team.
-            </p>
-
+        <div className='md:w-1/2  md:text-sm lg:text-base text-[#3C2B2B] md:pt-24 md:pl-4 lg:pl-0 lg:pr-8'>
+          <div className='space-y-6 md:space-y-2 lg:space-y-8 text-justify'>
             <p>
-              A digital agency is a business you hire to outsource your digital
-              marketing efforts, instead of handling in-house. They can provide
-              your business with a variety of digital solutions to promote your
-              product or service online and help you.
-            </p>
-
-            <p>
-              Ability to put themselves in the merchant&apos;s shoes. It is
-              meant to partner on the long run, and work as an extension of the
-              merchant&apos;s team.
-            </p>
-
-            <p>
-              A digital agency is a business you hire to outsource your digital
-              marketing efforts, instead of handling in-house. They can provide
-              your business with a variety of digital solutions to promote your
-              product or service online and help you.
-            </p> */}
-
-            <p>
-              Hi, I&apos;m Moses Afolabi, a Product Manager in Lagos with a
-              background in data analysis and a passion for creating innovative
-              tech solutions.
+              As a seasoned product manager with a background in philosophy and
+              a passion for technology, I excel at transforming complex business
+              needs into innovative, user-centric product solutions.
             </p>
             <p>
-              {" "}
-              With a BA in Philosophy and an ongoing PGD in Computer Science, I
-              specialize in solving complex challenges and leading AI
-              initiatives.{" "}
+              With over three years of experience in fintech, sports, and SaaS,
+              I&apos;ve delivered impactful products that drive growth and
+              elevate user experiences for both startups and established
+              companies. My expertise in data analysis, business strategy, and
+              product management has consistently turned challenges into
+              opportunities for success.
             </p>
             <p>
-              {" "}
-              At Bunce, I drive product strategy for a pan-African engagement
-              solution, focusing on impactful, ethical innovation.
+              I&apos;m also committed to giving back to the product management
+              community. I mentor aspiring PMs, share valuable insights on
+              social media, and volunteer as a product owner for interview
+              preparation sessions within the People in Product community.
             </p>
-            <p>
-              {" "}
-              My goal is to become a leader in Ethical AI Product Management,
-              combining technical expertise with strong leadership. Outside of
-              work, I recharge through travel, gaming, and exploring new
-              cuisines.
-            </p>
+            <p>Ready to take your product to the next level?</p>
           </div>
 
-          <Link href='https://drive.google.com/file/d/1wqpHmtS9LHUwgqirmDkuCqsVZbKk7XxY/view'>
-            <button className='bg-[#1E1414] w-full md:w-auto text-white font-medium px-8 py-3 rounded-lg  mt-8 md:mt-4 lg:mt-8'>
-              View My Resume
+          <Link href='mailto:hello@mosesafolabi.com'>
+            <button className='bg-[#1E1414] w-full md:w-auto text-white font-medium px-8 py-3 rounded-lg  mt-8 md:mt-4 lg:mt-16'>
+              Let&apos;s Talk!
             </button>
           </Link>
         </div>

@@ -15,12 +15,12 @@ export default function Home() {
           </p>
           <div className='flex flex-col md:flex-row md:space-x-8 mt-8'>
             <Link href='/contact-me'>
-              <button className='bg-white text-[#221919] py-2  px-4 rounded-lg mb-6 md:mb-0 '>
+              <button className='bg-white text-[#221919] py-2  px-4 rounded-lg mb-6 md:mb-0 w-full md:w-fit'>
                 Contact me
               </button>
             </Link>
 
-            <Link href='https://forms.gle/trbmvfhgodrpg2x37'>
+            <Link href='https://forms.gle/trbmvfhgodrpg2x37' target='blank'>
               <button className='text-white border border-white py-2 px-4 rounded-lg mb-4 md:mb-0'>
                 Subscribe to newsletter
               </button>

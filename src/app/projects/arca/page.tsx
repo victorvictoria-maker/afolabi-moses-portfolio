@@ -28,7 +28,7 @@ const Arca = () => {
           <Image
             src='/images/arcaLogoSm.png'
             alt='Arca Logo'
-            width={335}
+            width={700}
             height={200}
             className='block md:hidden'
           />
@@ -44,13 +44,20 @@ const Arca = () => {
         <h1 className='text-2xl font-semibold text-[#1E1414] mt-2 md:mt-4'>
           Arca
         </h1>
-        <div className='md:mt-3 lg:mt-6 space-y-6'>
+        <div className='md:mt-3 lg:mt-6 space-y-6 text-justify'>
           <p>
-            Arca Payments Company Limited is a leading B2B Nigerian financial
-            technology company specializing in providing INNOVATIVE PAYMENT
-            SOLUTIONS for businesses. Established to enhance financial
-            transactions, Arca offers a comprehensive range of services
-            including:
+            <Link
+              href='https://arca.network/'
+              target='blank'
+              title='Open https://arca.network/'
+              className='underline'
+            >
+              Arca Payments Company Limited
+            </Link>{" "}
+            is a leading B2B Nigerian financial technology company specializing
+            in providing INNOVATIVE PAYMENT SOLUTIONS for businesses.
+            Established to enhance financial transactions, Arca offers a
+            comprehensive range of services including:
           </p>
           <ul className='ml-4 list-disc mt-2'>
             <li>

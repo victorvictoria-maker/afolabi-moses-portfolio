@@ -28,7 +28,7 @@ const TasaAfrica = () => {
           <Image
             src='/images/tasaLogoSm.png'
             alt='Tasa Logo'
-            width={335}
+            width={700}
             height={200}
             className='block md:hidden'
           />
@@ -44,12 +44,19 @@ const TasaAfrica = () => {
         <h1 className='text-2xl font-semibold text-[#1E1414] mt-2 md:mt-4'>
           Tasa
         </h1>
-        <div className='md:mt-3 lg:mt-6 space-y-6'>
+        <div className='md:mt-3 lg:mt-6 space-y-6 text-justify'>
           <p>
-            Total Athlete Sportal Africa (TASAfrica) is a groundbreaking
-            platform designed to revolutionize the way sports talent is
-            discovered, nurtured, and developed in Africa. Their key features
-            and goals include:
+            <Link
+              href='https://www.tasafrica.com/'
+              target='blank'
+              title='Open www.tasafrica.com'
+              className='underline'
+            >
+              Total Athlete Sportal Africa (TASAfrica)
+            </Link>{" "}
+            is a groundbreaking platform designed to revolutionize the way
+            sports talent is discovered, nurtured, and developed in Africa.
+            Their key features and goals include:
           </p>
           <ul className='ml-4 list-disc'>
             <li>

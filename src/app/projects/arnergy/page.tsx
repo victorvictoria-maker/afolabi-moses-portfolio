@@ -28,7 +28,7 @@ const Arnergy = () => {
           <Image
             src='/images/arnergyLogoSm.png'
             alt='Arnergy Logo'
-            width={335}
+            width={700}
             height={200}
             className='block md:hidden'
           />
@@ -46,9 +46,17 @@ const Arnergy = () => {
         </h1>
         <div className='md:mt-3 lg:mt-6 space-y-6'>
           <p>
-            Arnergy is a premier Nigerian solar power company dedicated to
-            delivering innovative energy solutions for small businesses. Since
-            its inception in 2013, Arnergy has earned widespread acclaim for its
+            <Link
+              href='https://arnergy.com/'
+              target='blank'
+              title='Open https://arnergy.com/'
+              className='underline'
+            >
+              Arnergy
+            </Link>{" "}
+            is a premier Nigerian solar power company dedicated to delivering
+            innovative energy solutions for small businesses. Since its
+            inception in 2013, Arnergy has earned widespread acclaim for its
             essential contributions to overcoming Nigeria&apos;s energy
             challenges. Headquartered in Lagos, the company is steadfast in its
             mission to empower businesses and communities with clean, reliable
