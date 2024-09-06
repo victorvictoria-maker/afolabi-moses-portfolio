@@ -19,7 +19,7 @@ export const contactMe = async (formData: FormData) => {
     }
 
     const { error } = await resend.emails.send({
-      from: "Contact Form <onboarding@resend.dev>",
+      from: "Contact Form <https://mosesafolabi.com>",
       to: "hello@mosesafolabi.com",
       subject: `Message from ${fullName} - mosesafolabi.com `,
       replyTo: email as string,
