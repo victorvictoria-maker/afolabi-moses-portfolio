@@ -19,19 +19,21 @@ export const contactMe = async (formData: FormData) => {
     }
 
     const { error } = await resend.emails.send({
-      from: "Contact Form <https://mosesafolabi.com>",
+      from: "Contact Form <hello@mosesafolabi.com>",
       to: "hello@mosesafolabi.com",
       subject: `Message from ${fullName} - mosesafolabi.com `,
-      replyTo: email as string,
+      replyTo: email,
       text: message,
     });
 
     if (error) {
+      console.log(error);
       return { error: "Error sending messsage" };
     }
 
     return { success: "Message sent" };
   } catch (error) {
+    console.log(error);
     return { error: "Error sending messsage" };
   }
 };
