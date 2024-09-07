@@ -26,7 +26,7 @@ const Footer = () => {
               Twitter
             </Link>
             <Link
-              href='mailto:hello@mosesafolabi.com'
+              href='mailto:themosesafolabi@gmail.com'
               className='text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium'
             >
               Mail

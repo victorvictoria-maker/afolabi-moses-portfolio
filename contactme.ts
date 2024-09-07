@@ -20,7 +20,7 @@ export const contactMe = async (formData: FormData) => {
 
     const { error } = await resend.emails.send({
       from: "Contact Form <hello@mosesafolabi.com>",
-      to: "hello@mosesafolabi.com",
+      to: "themosesafolabi@gmail.com",
       subject: `Message from ${fullName} - mosesafolabi.com `,
       replyTo: email,
       text: message,
